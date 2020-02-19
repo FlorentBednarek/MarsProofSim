@@ -3,7 +3,6 @@ all :
 	python Main.py
 
 init :
-	sudo apt-get install git
 	sudo apt-get install python-pip
 	pip install virtualenv
 	virtualenv -p python3 env
